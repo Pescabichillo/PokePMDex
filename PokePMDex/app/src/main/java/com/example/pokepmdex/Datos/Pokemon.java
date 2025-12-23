@@ -49,12 +49,12 @@ public class Pokemon {
         return pokemonID;
     }
 
-    public int getPokemonHeight() {
-        return pokemonHeight;
+    public float getPokemonHeight() {
+        return (float) pokemonHeight /10;
     }
 
-    public int getPokemonWeight() {
-        return pokemonWeight;
+    public float getPokemonWeight() {
+        return (float) pokemonWeight /10;
     }
 
     public int getPokemonHp() {

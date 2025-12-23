@@ -21,16 +21,25 @@ public class DescargarPokemons implements Runnable {
     private Context ctx;
 
     private int offset;
+    private int limit;
 
-    public DescargarPokemons(Context cxt, int offset) {
+    public DescargarPokemons(Context cxt, int offset, int limit) {
         this.ctx = cxt;
         this.offset = offset;
+        this.limit = limit;
     }
 
     @Override
     public void run() {
         try {
-            JSONObject obj = new JSONObject(NetUtils.getURLText("https://pokeapi.co/api/v2/pokemon?offset=" + offset + "&limit=20"));
+            ((Activity) ctx).runOnUiThread(new Runnable() {
+                @Override
+                public void run() {
+                    ((PokemonList) ctx).startDownload();
+                }
+            });
+
+            JSONObject obj = new JSONObject(NetUtils.getURLText("https://pokeapi.co/api/v2/pokemon?offset=" + offset + "&limit=" + limit));
             JSONArray arr = obj.getJSONArray("results");
 
             GsonBuilder gsonBuilder = new GsonBuilder();
