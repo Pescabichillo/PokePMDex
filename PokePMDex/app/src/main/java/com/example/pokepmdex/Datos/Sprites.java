@@ -2,7 +2,7 @@ package com.example.pokepmdex.Datos;
 
 import com.google.gson.annotations.SerializedName;
 
-class Sprites {
+public class Sprites {
 
     @SerializedName("front_default")
     private final String frontDefaultURL;

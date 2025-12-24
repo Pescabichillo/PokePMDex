@@ -4,6 +4,7 @@ import android.graphics.Bitmap;
 
 import com.google.gson.annotations.SerializedName;
 
+import java.io.ByteArrayOutputStream;
 import java.util.List;
 
 public class Pokemon {
@@ -29,7 +30,7 @@ public class Pokemon {
     @SerializedName("types")
     private final List<Types> types;
 
-    private Bitmap imageMap;
+    private byte[] imageMap;
 
     public Pokemon(String pokemonName, int pokemonID, int pokemonHeight, int pokemonWeight, List<BaseStats> pokemonBaseStats, Sprites pokemonSprites, List<Types> types) {
         this.pokemonName = pokemonName;
@@ -49,12 +50,12 @@ public class Pokemon {
         return pokemonID;
     }
 
-    public float getPokemonHeight() {
-        return (float) pokemonHeight /10;
+    public int getPokemonHeight() {
+        return pokemonHeight;
     }
 
-    public float getPokemonWeight() {
-        return (float) pokemonWeight /10;
+    public int getPokemonWeight() {
+        return pokemonWeight;
     }
 
     public int getPokemonHp() {
@@ -97,11 +98,21 @@ public class Pokemon {
         }
     }
 
-    public Bitmap getImageMap() {
+    public byte[] getImageMap() {
         return imageMap;
     }
 
     public void setImageMap(Bitmap imageMap) {
+        ByteArrayOutputStream bos = new ByteArrayOutputStream();
+        imageMap.compress(Bitmap.CompressFormat.PNG, 100, bos);
+        this.imageMap = bos.toByteArray();;
+    }
+
+    public void setImageMap(byte[] imageMap) {
         this.imageMap = imageMap;
+    }
+
+    public String toString() {
+        return "Pokemon: " + pokemonName;
     }
 }

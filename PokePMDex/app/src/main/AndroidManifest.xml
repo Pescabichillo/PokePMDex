@@ -16,13 +16,13 @@
         android:theme="@style/Theme.PokePMDex"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".Pokemon_favourites"
+            android:name=".Pokedex.Pokemon_favourites"
             android:exported="false" />
         <activity
-            android:name=".PokemonData"
+            android:name=".Pokedex.PokemonData"
             android:exported="false" />
         <activity
-            android:name=".PokemonList"
+            android:name=".Pokedex.PokemonList"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

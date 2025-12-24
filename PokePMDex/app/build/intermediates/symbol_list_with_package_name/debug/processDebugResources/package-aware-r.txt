@@ -3670,6 +3670,8 @@ id FUNCTION
 id HeightText
 id META
 id NO_DEBUG
+id PokemonFavouriteListName
+id PokemonFavouriteListSprite
 id PokemonList
 id PokemonListName
 id PokemonListSprite
@@ -3813,8 +3815,8 @@ id currentState
 id custom
 id customPanel
 id cut
+id data_button_favourites
 id data_button_return
-id data_checkBox_favoritos
 id data_pokemon_attack
 id data_pokemon_defense
 id data_pokemon_height
@@ -3881,6 +3883,7 @@ id expanded_menu
 id fade
 id favourites_buscar
 id favourites_button_return
+id favourites_pokemonList
 id fill
 id fill_horizontal
 id fill_vertical
@@ -3944,7 +3947,9 @@ id list_button_next
 id list_button_prev
 id list_button_return
 id list_item
+id list_number_generation
 id list_progressBar
+id list_text_generation
 id m3_side_sheet
 id main
 id marquee
@@ -4161,6 +4166,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -4413,6 +4419,7 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout pokemon_favourite_list
 layout pokemon_list
 layout select_dialog_item_material
 layout select_dialog_multichoice_material

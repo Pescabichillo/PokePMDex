@@ -11,6 +11,8 @@ import android.os.Build;
 
 import androidx.annotation.RequiresApi;
 
+import com.example.pokepmdex.Pokedex.Pokemon_favourites;
+
 public class NotificationHandler extends ContextWrapper {
     private NotificationManager manager;
     public static final String CHANNEL_HIGH_ID = "1";

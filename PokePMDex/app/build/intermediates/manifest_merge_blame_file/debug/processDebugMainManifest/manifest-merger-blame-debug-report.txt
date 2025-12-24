@@ -53,20 +53,20 @@
 33-->C:\Users\Leonardo\AndroidStudioProjects\PokePMDex\PokePMDex\app\src\main\AndroidManifest.xml:17:9-44
 34        <activity
 34-->C:\Users\Leonardo\AndroidStudioProjects\PokePMDex\PokePMDex\app\src\main\AndroidManifest.xml:18:9-20:40
-35            android:name="com.example.pokepmdex.pokemon_favourites"
-35-->C:\Users\Leonardo\AndroidStudioProjects\PokePMDex\PokePMDex\app\src\main\AndroidManifest.xml:19:13-47
+35            android:name="com.example.pokepmdex.Pokedex.Pokemon_favourites"
+35-->C:\Users\Leonardo\AndroidStudioProjects\PokePMDex\PokePMDex\app\src\main\AndroidManifest.xml:19:13-55
 36            android:exported="false" />
 36-->C:\Users\Leonardo\AndroidStudioProjects\PokePMDex\PokePMDex\app\src\main\AndroidManifest.xml:20:13-37
 37        <activity
 37-->C:\Users\Leonardo\AndroidStudioProjects\PokePMDex\PokePMDex\app\src\main\AndroidManifest.xml:21:9-23:40
-38            android:name="com.example.pokepmdex.PokemonData"
-38-->C:\Users\Leonardo\AndroidStudioProjects\PokePMDex\PokePMDex\app\src\main\AndroidManifest.xml:22:13-40
+38            android:name="com.example.pokepmdex.Pokedex.PokemonData"
+38-->C:\Users\Leonardo\AndroidStudioProjects\PokePMDex\PokePMDex\app\src\main\AndroidManifest.xml:22:13-48
 39            android:exported="false" />
 39-->C:\Users\Leonardo\AndroidStudioProjects\PokePMDex\PokePMDex\app\src\main\AndroidManifest.xml:23:13-37
 40        <activity
 40-->C:\Users\Leonardo\AndroidStudioProjects\PokePMDex\PokePMDex\app\src\main\AndroidManifest.xml:24:9-26:40
-41            android:name="com.example.pokepmdex.PokemonList"
-41-->C:\Users\Leonardo\AndroidStudioProjects\PokePMDex\PokePMDex\app\src\main\AndroidManifest.xml:25:13-40
+41            android:name="com.example.pokepmdex.Pokedex.PokemonList"
+41-->C:\Users\Leonardo\AndroidStudioProjects\PokePMDex\PokePMDex\app\src\main\AndroidManifest.xml:25:13-48
 42            android:exported="false" />
 42-->C:\Users\Leonardo\AndroidStudioProjects\PokePMDex\PokePMDex\app\src\main\AndroidManifest.xml:26:13-37
 43        <activity

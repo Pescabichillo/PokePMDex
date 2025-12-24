@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:visibility="visible"
-    tools:context=".PokemonList">
+    tools:context=".Pokedex.PokemonList">
 
     <ProgressBar
         android:id="@+id/list_progressBar"
@@ -20,8 +20,8 @@
 
     <ImageButton
         android:id="@+id/list_button_return"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
         android:background="#00FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -83,5 +83,33 @@
             android:layout_weight="1"
             android:text="Next" />
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/list_text_generation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_black"
+        android:text="Generation"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/PokemonList"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.452"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.68" />
+
+    <TextView
+        android:id="@+id/list_number_generation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/roboto_black"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="@+id/list_text_generation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/list_text_generation"
+        app:layout_constraintTop_toTopOf="@+id/list_text_generation"
+        app:layout_constraintVertical_bias="1.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

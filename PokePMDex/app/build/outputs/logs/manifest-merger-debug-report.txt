@@ -102,24 +102,24 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Le
 		ADDED from C:\Users\Leonardo\AndroidStudioProjects\PokePMDex\PokePMDex\app\src\main\AndroidManifest.xml:10:9-65
 	android:usesCleartextTraffic
 		ADDED from C:\Users\Leonardo\AndroidStudioProjects\PokePMDex\PokePMDex\app\src\main\AndroidManifest.xml:17:9-44
-activity#com.example.pokepmdex.pokemon_favourites
+activity#com.example.pokepmdex.Pokedex.Pokemon_favourites
 ADDED from C:\Users\Leonardo\AndroidStudioProjects\PokePMDex\PokePMDex\app\src\main\AndroidManifest.xml:18:9-20:40
 	android:exported
 		ADDED from C:\Users\Leonardo\AndroidStudioProjects\PokePMDex\PokePMDex\app\src\main\AndroidManifest.xml:20:13-37
 	android:name
-		ADDED from C:\Users\Leonardo\AndroidStudioProjects\PokePMDex\PokePMDex\app\src\main\AndroidManifest.xml:19:13-47
-activity#com.example.pokepmdex.PokemonData
+		ADDED from C:\Users\Leonardo\AndroidStudioProjects\PokePMDex\PokePMDex\app\src\main\AndroidManifest.xml:19:13-55
+activity#com.example.pokepmdex.Pokedex.PokemonData
 ADDED from C:\Users\Leonardo\AndroidStudioProjects\PokePMDex\PokePMDex\app\src\main\AndroidManifest.xml:21:9-23:40
 	android:exported
 		ADDED from C:\Users\Leonardo\AndroidStudioProjects\PokePMDex\PokePMDex\app\src\main\AndroidManifest.xml:23:13-37
 	android:name
-		ADDED from C:\Users\Leonardo\AndroidStudioProjects\PokePMDex\PokePMDex\app\src\main\AndroidManifest.xml:22:13-40
-activity#com.example.pokepmdex.PokemonList
+		ADDED from C:\Users\Leonardo\AndroidStudioProjects\PokePMDex\PokePMDex\app\src\main\AndroidManifest.xml:22:13-48
+activity#com.example.pokepmdex.Pokedex.PokemonList
 ADDED from C:\Users\Leonardo\AndroidStudioProjects\PokePMDex\PokePMDex\app\src\main\AndroidManifest.xml:24:9-26:40
 	android:exported
 		ADDED from C:\Users\Leonardo\AndroidStudioProjects\PokePMDex\PokePMDex\app\src\main\AndroidManifest.xml:26:13-37
 	android:name
-		ADDED from C:\Users\Leonardo\AndroidStudioProjects\PokePMDex\PokePMDex\app\src\main\AndroidManifest.xml:25:13-40
+		ADDED from C:\Users\Leonardo\AndroidStudioProjects\PokePMDex\PokePMDex\app\src\main\AndroidManifest.xml:25:13-48
 activity#com.example.pokepmdex.MainActivity
 ADDED from C:\Users\Leonardo\AndroidStudioProjects\PokePMDex\PokePMDex\app\src\main\AndroidManifest.xml:27:9-35:20
 	android:exported

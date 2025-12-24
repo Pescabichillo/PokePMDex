@@ -8,12 +8,12 @@
         "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-36:\\mipmap-mdpi\\pokeball_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-34:\\mipmap-anydpi_ic_launcher.xml.flat",
-        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-36:\\mipmap-anydpi\\ic_launcher.xml"
-    },
-    {
         "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-34:\\mipmap-xxhdpi_pokeball.webp.flat",
         "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-36:\\mipmap-xxhdpi\\pokeball.webp"
+    },
+    {
+        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-34:\\mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-36:\\mipmap-anydpi\\ic_launcher.xml"
     },
     {
         "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-34:\\mipmap-xxhdpi_ic_launcher.webp.flat",
@@ -52,10 +52,6 @@
         "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-36:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.example.pokepmdex.app-debug-34:/layout_activity_pokemon_data.xml.flat",
-        "source": "com.example.pokepmdex.app-main-36:/layout/activity_pokemon_data.xml"
-    },
-    {
         "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-34:\\mipmap-hdpi_pokeball_foreground.webp.flat",
         "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-36:\\mipmap-hdpi\\pokeball_foreground.webp"
     },
@@ -84,6 +80,14 @@
         "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-36:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "com.example.pokepmdex.app-debug-34:/layout_pokemon_favourite_list.xml.flat",
+        "source": "com.example.pokepmdex.app-main-36:/layout/pokemon_favourite_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-34:\\layout_pokemon_favourite_list.xml.flat",
+        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-36:\\layout\\pokemon_favourite_list.xml"
+    },
+    {
         "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-34:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-36:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
@@ -110,10 +114,6 @@
     {
         "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-34:\\drawable_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-36:\\drawable\\ic_launcher_foreground.xml"
-    },
-    {
-        "merged": "com.example.pokepmdex.app-debug-34:/layout_activity_pokemon_favourites.xml.flat",
-        "source": "com.example.pokepmdex.app-main-36:/layout/activity_pokemon_favourites.xml"
     },
     {
         "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-34:\\mipmap-xhdpi_ic_launcher_round.webp.flat",

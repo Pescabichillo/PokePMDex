@@ -21,8 +21,8 @@
 
     <ImageButton
         android:id="@+id/data_button_return"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
         android:background="#00FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -288,16 +288,16 @@
         app:layout_constraintTop_toTopOf="@+id/data_text_speed"
         app:layout_constraintVertical_bias="0.0" />
 
-    <CheckBox
-        android:id="@+id/data_checkBox_favoritos"
+    <Button
+        android:id="@+id/data_button_favourites"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="Favorito"
+        android:text="Add to favourites"
         app:layout_constraintBottom_toBottomOf="@+id/data_pokemon_name"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.877"
+        app:layout_constraintHorizontal_bias="0.815"
         app:layout_constraintStart_toEndOf="@+id/data_pokemon_name"
         app:layout_constraintTop_toTopOf="@+id/data_pokemon_name"
         app:layout_constraintVertical_bias="0.562" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
