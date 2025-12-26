@@ -6,7 +6,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 public class Helper extends SQLiteOpenHelper {
     private static final String DATABASE_NAME = "pokemons_favoritos";
-    private static final int CURRENT_VERSION = 4;
+    private static final int CURRENT_VERSION = 5;
 
     public Helper(Context cxt) {
         super(cxt, DATABASE_NAME, null, CURRENT_VERSION);
@@ -25,7 +25,8 @@ public class Helper extends SQLiteOpenHelper {
                             "SpecialAttack INTEGER, " +
                             "SpecialDefense INTEGER, " +
                             "Speed INTEGER," +
-                            "sprite BLOB " +
+                            "sprite BLOB, " +
+                            "spriteURL TEXT" +
                         ");"
         );
     }

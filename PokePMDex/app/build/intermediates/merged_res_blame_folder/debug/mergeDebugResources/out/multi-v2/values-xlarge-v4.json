@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.pokepmdex.app-mergeDebugResources-32:/values-xlarge-v4/values-xlarge-v4.xml",
+            "outputFile": "com.example.pokepmdex.app-mergeDebugResources-38:/values-xlarge-v4/values-xlarge-v4.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Leonardo\\.gradle\\caches\\8.13\\transforms\\46a6007f61de7d535a48cc08f18ff312\\transformed\\appcompat-1.7.1\\res\\values-xlarge-v4\\values-xlarge-v4.xml",

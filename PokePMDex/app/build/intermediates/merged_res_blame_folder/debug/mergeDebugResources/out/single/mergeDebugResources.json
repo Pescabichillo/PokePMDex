@@ -1,182 +1,162 @@
 [
     {
-        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-34:\\drawable_pokeball_background.xml.flat",
-        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-36:\\drawable\\pokeball_background.xml"
+        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-40:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-42:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-34:\\mipmap-mdpi_pokeball_foreground.webp.flat",
-        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-36:\\mipmap-mdpi\\pokeball_foreground.webp"
+        "merged": "com.example.pokepmdex.app-debug-40:/layout_fragment_favourites.xml.flat",
+        "source": "com.example.pokepmdex.app-main-42:/layout/fragment_favourites.xml"
     },
     {
-        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-34:\\mipmap-xxhdpi_pokeball.webp.flat",
-        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-36:\\mipmap-xxhdpi\\pokeball.webp"
+        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-40:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-42:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-34:\\mipmap-anydpi_ic_launcher.xml.flat",
-        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-36:\\mipmap-anydpi\\ic_launcher.xml"
+        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-40:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-42:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-34:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-36:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-40:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-42:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-34:\\mipmap-hdpi_pokeball.webp.flat",
-        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-36:\\mipmap-hdpi\\pokeball.webp"
+        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-40:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-42:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-34:\\mipmap-xhdpi_pokeball.webp.flat",
-        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-36:\\mipmap-xhdpi\\pokeball.webp"
+        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-40:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-42:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-34:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-36:\\xml\\backup_rules.xml"
+        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-40:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-42:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-34:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-36:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-40:\\mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-42:\\mipmap-anydpi\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-34:\\mipmap-xxhdpi_pokeball_round.webp.flat",
-        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-36:\\mipmap-xxhdpi\\pokeball_round.webp"
+        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-40:\\font_roboto.xml.flat",
+        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-42:\\font\\roboto.xml"
     },
     {
-        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-34:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-36:\\xml\\data_extraction_rules.xml"
+        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-40:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-42:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-34:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-36:\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-40:\\drawable_pokemon_rs_logo.png.flat",
+        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-42:\\drawable\\pokemon_rs_logo.png"
     },
     {
-        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-34:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-36:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-40:\\drawable_pokeball_png_free_download.png.flat",
+        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-42:\\drawable\\pokeball_png_free_download.png"
     },
     {
-        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-34:\\mipmap-hdpi_pokeball_foreground.webp.flat",
-        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-36:\\mipmap-hdpi\\pokeball_foreground.webp"
+        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-40:\\drawable_share_arrow_white_icon.xml.flat",
+        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-42:\\drawable\\share_arrow_white_icon.xml"
     },
     {
-        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-34:\\mipmap-anydpi-v26_pokeball_round.xml.flat",
-        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-36:\\mipmap-anydpi-v26\\pokeball_round.xml"
+        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-40:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-42:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-34:\\mipmap-mdpi_pokeball.webp.flat",
-        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-36:\\mipmap-mdpi\\pokeball.webp"
+        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-40:\\drawable_pokemon_rb_logo.png.flat",
+        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-42:\\drawable\\pokemon_rb_logo.png"
     },
     {
-        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-34:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-36:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-40:\\layout_pokemon_list.xml.flat",
+        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-42:\\layout\\pokemon_list.xml"
     },
     {
-        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-34:\\mipmap-xxxhdpi_pokeball_round.webp.flat",
-        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-36:\\mipmap-xxxhdpi\\pokeball_round.webp"
+        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-40:\\drawable_pokemon_gs_logo.jpg.flat",
+        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-42:\\drawable\\pokemon_gs_logo.jpg"
     },
     {
-        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-34:\\mipmap-xxxhdpi_pokeball.webp.flat",
-        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-36:\\mipmap-xxxhdpi\\pokeball.webp"
+        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-40:\\drawable_pokemon_dp_logo.png.flat",
+        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-42:\\drawable\\pokemon_dp_logo.png"
     },
     {
-        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-34:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-36:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-40:\\font_roboto_medium.xml.flat",
+        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-42:\\font\\roboto_medium.xml"
     },
     {
-        "merged": "com.example.pokepmdex.app-debug-34:/layout_pokemon_favourite_list.xml.flat",
-        "source": "com.example.pokepmdex.app-main-36:/layout/pokemon_favourite_list.xml"
+        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-40:\\drawable_rectangle.xml.flat",
+        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-42:\\drawable\\rectangle.xml"
     },
     {
-        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-34:\\layout_pokemon_favourite_list.xml.flat",
-        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-36:\\layout\\pokemon_favourite_list.xml"
+        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-40:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-42:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-34:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-36:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-40:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-42:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-34:\\mipmap-anydpi-v26_pokeball.xml.flat",
-        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-36:\\mipmap-anydpi-v26\\pokeball.xml"
+        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-40:\\layout_pokemon_favourite_list.xml.flat",
+        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-42:\\layout\\pokemon_favourite_list.xml"
     },
     {
-        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-34:\\layout_activity_pokemon_list.xml.flat",
-        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-36:\\layout\\activity_pokemon_list.xml"
+        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-40:\\drawable_outline_arrow_back_24.xml.flat",
+        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-42:\\drawable\\outline_arrow_back_24.xml"
     },
     {
-        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-34:\\mipmap-xhdpi_pokeball_round.webp.flat",
-        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-36:\\mipmap-xhdpi\\pokeball_round.webp"
+        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-40:\\mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-42:\\mipmap-anydpi\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-34:\\font_roboto_black.xml.flat",
-        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-36:\\font\\roboto_black.xml"
+        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-40:\\drawable_pokemon_bw_logo.png.flat",
+        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-42:\\drawable\\pokemon_bw_logo.png"
     },
     {
-        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-34:\\mipmap-xhdpi_pokeball_foreground.webp.flat",
-        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-36:\\mipmap-xhdpi\\pokeball_foreground.webp"
+        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-40:\\layout_activity_pokemon_favourites.xml.flat",
+        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-42:\\layout\\activity_pokemon_favourites.xml"
     },
     {
-        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-34:\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-36:\\drawable\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-40:\\layout_fragment_favourites.xml.flat",
+        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-42:\\layout\\fragment_favourites.xml"
     },
     {
-        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-34:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-36:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-40:\\drawable__6aa.webp.flat",
+        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-42:\\drawable\\_6aa.webp"
     },
     {
-        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-34:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-36:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-40:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-42:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-34:\\font_roboto.xml.flat",
-        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-36:\\font\\roboto.xml"
+        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-40:\\font_roboto_black.xml.flat",
+        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-42:\\font\\roboto_black.xml"
     },
     {
-        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-34:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-36:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-40:\\layout_fragment_generations.xml.flat",
+        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-42:\\layout\\fragment_generations.xml"
     },
     {
-        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-34:\\mipmap-xxxhdpi_pokeball_foreground.webp.flat",
-        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-36:\\mipmap-xxxhdpi\\pokeball_foreground.webp"
+        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-40:\\layout_activity_pokemon_list.xml.flat",
+        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-42:\\layout\\activity_pokemon_list.xml"
     },
     {
-        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-34:\\mipmap-mdpi_pokeball_round.webp.flat",
-        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-36:\\mipmap-mdpi\\pokeball_round.webp"
+        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-40:\\drawable_pokemon_xy_logo.png.flat",
+        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-42:\\drawable\\pokemon_xy_logo.png"
     },
     {
-        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-34:\\drawable_outline_arrow_back_24.xml.flat",
-        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-36:\\drawable\\outline_arrow_back_24.xml"
+        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-40:\\drawable_logo.png.flat",
+        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-42:\\drawable\\logo.png"
     },
     {
-        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-34:\\layout_pokemon_list.xml.flat",
-        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-36:\\layout\\pokemon_list.xml"
+        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-40:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-42:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-34:\\mipmap-anydpi_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-36:\\mipmap-anydpi\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-40:\\layout_activity_pokemon_data.xml.flat",
+        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-42:\\layout\\activity_pokemon_data.xml"
     },
     {
-        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-34:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-36:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-40:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-42:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-34:\\layout_activity_pokemon_favourites.xml.flat",
-        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-36:\\layout\\activity_pokemon_favourites.xml"
-    },
-    {
-        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-34:\\mipmap-hdpi_pokeball_round.webp.flat",
-        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-36:\\mipmap-hdpi\\pokeball_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-34:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-36:\\mipmap-xxhdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-34:\\mipmap-xxhdpi_pokeball_foreground.webp.flat",
-        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-36:\\mipmap-xxhdpi\\pokeball_foreground.webp"
-    },
-    {
-        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-34:\\font_roboto_medium.xml.flat",
-        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-36:\\font\\roboto_medium.xml"
-    },
-    {
-        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-34:\\layout_activity_pokemon_data.xml.flat",
-        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-36:\\layout\\activity_pokemon_data.xml"
+        "merged": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-debug-40:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Leonardo\\.gradle\\daemon\\8.13\\com.example.pokepmdex.app-main-42:\\mipmap-hdpi\\ic_launcher.webp"
     }
 ]

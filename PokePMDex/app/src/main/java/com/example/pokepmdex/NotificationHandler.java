@@ -11,8 +11,6 @@ import android.os.Build;
 
 import androidx.annotation.RequiresApi;
 
-import com.example.pokepmdex.Pokedex.Pokemon_favourites;
-
 public class NotificationHandler extends ContextWrapper {
     private NotificationManager manager;
     public static final String CHANNEL_HIGH_ID = "1";
@@ -51,9 +49,9 @@ public class NotificationHandler extends ContextWrapper {
     @RequiresApi(api = Build.VERSION_CODES.O)
     private Notification.Builder createNotificationChannels (String title, String msg, String channel) {
 
-        Intent intent = new Intent(this, Pokemon_favourites.class);
-        intent.putExtra("title", title);
-        intent.putExtra("msg", msg);
+        Intent intent = new Intent(this, MainActivity.class);
+        intent.putExtra("FragmentFavourite", 1);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
 
         PendingIntent pendingIntent = PendingIntent.getActivity(this, 1, intent, PendingIntent.FLAG_CANCEL_CURRENT | PendingIntent.FLAG_IMMUTABLE);
 
@@ -68,9 +66,10 @@ public class NotificationHandler extends ContextWrapper {
 
     private Notification.Builder createNotificationNoChannels (String title, String msg) {
 
-        Intent intent = new Intent(this, Pokemon_favourites.class);
-        intent.putExtra("title", title);
-        intent.putExtra("msg", msg);
+
+        Intent intent = new Intent(this, MainActivity.class);
+        intent.putExtra("FragmentFavourite", 1);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
 
         PendingIntent pendingIntent = PendingIntent.getActivity(this, 1, intent, PendingIntent.FLAG_CANCEL_CURRENT | PendingIntent.FLAG_IMMUTABLE);
 

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.pokepmdex.app-mergeDebugResources-32:/values-zh-rHK/values-zh-rHK.xml",
+            "outputFile": "com.example.pokepmdex.app-mergeDebugResources-38:/values-zh-rHK/values-zh-rHK.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Leonardo\\.gradle\\caches\\8.13\\transforms\\8868419871775e4e0d3a89958763d365\\transformed\\material-1.13.0\\res\\values-zh-rHK\\values-zh-rHK.xml",

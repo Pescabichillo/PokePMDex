@@ -5,8 +5,22 @@
     android:id="@+id/ButtonNext"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     android:visibility="visible"
     tools:context=".Pokedex.PokemonList">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:background="#CC0000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/rectangle" />
 
     <ProgressBar
         android:id="@+id/list_progressBar"
@@ -23,26 +37,25 @@
         android:layout_width="48dp"
         android:layout_height="48dp"
         android:background="#00FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.041"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.045"
+        app:layout_constraintBottom_toBottomOf="@id/imageView3"
+        app:layout_constraintEnd_toEndOf="@id/imageView3"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="@id/imageView3"
+        app:layout_constraintTop_toTopOf="@id/imageView3"
+        app:layout_constraintVertical_bias="0.557"
         app:srcCompat="@drawable/outline_arrow_back_24" />
 
     <GridView
         android:id="@+id/PokemonList"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
         android:numColumns="2"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/list_button_return">
+        app:layout_constraintTop_toBottomOf="@+id/imageView3">
 
     </GridView>
 
@@ -64,24 +77,28 @@
         app:layout_constraintVertical_bias="1.0">
 
         <Button
-            android:id="@+id/list_button_prev"
+            android:id="@+id/main_button_generations"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:layout_weight="1"
+            android:backgroundTint="#CC0000"
             android:padding="10dp"
-            android:text="Prev"
-            android:visibility="visible" />
+            android:text="@string/list_prev"
+            android:visibility="visible"
+            app:cornerRadius="10dp" />
 
         <Button
-            android:id="@+id/list_button_next"
+            android:id="@+id/main_button_favourites"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:layout_weight="1"
-            android:text="Next" />
+            android:backgroundTint="#CC0000"
+            android:text="@string/list_next"
+            app:cornerRadius="10dp" />
     </LinearLayout>
 
     <TextView
@@ -89,14 +106,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/roboto_black"
-        android:text="Generation"
+        android:text="@string/list_generation"
+        android:textColor="#FFFFFF"
         android:textSize="34sp"
-        app:layout_constraintBottom_toTopOf="@+id/PokemonList"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.452"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.68" />
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintHorizontal_bias="0.436"
+        app:layout_constraintStart_toStartOf="@id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.527" />
 
     <TextView
         android:id="@+id/list_number_generation"
@@ -104,6 +122,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:fontFamily="@font/roboto_black"
+        android:textColor="#FFFFFF"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="@+id/list_text_generation"
         app:layout_constraintEnd_toEndOf="parent"

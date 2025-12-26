@@ -316,8 +316,9 @@
                         </option>
                         <option name="values">
                           <map>
+                            <entry key="color" value="ffffff" />
                             <entry key="outputName" value="outline_arrow_back_24" />
-                            <entry key="sourceFile" value="C:\Users\Leonardo\AndroidStudioProjects\PokePMDex\PokePMDex" />
+                            <entry key="sourceFile" value="C:\Users\Leonardo\Downloads\share-arrow-white-icon.svg" />
                           </map>
                         </option>
                       </PersistentState>

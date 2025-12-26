@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PokePMDex</string>
+    <string name="data_altura">Altura:</string>
+    <string name="data_weight">Peso:</string>
+    <string name="data_baseStats">Estadísticas base</string>
+    <string name="data_attack">Ataque:</string>
+    <string name="data_defense">Defensa:</string>
+    <string name="data_specialAttack">Ataque especial:</string>
+    <string name="data_specialDefense">Defensa especial:</string>
+    <string name="data_speed">Velocidad:</string>
+    <string name="data_favourites">Añadir a favoritos</string>
+    <string name="list_prev">Anterior</string>
+    <string name="list_next">Siguiente</string>
+    <string name="list_generation">Generación</string>
+    <string name="favourites_hint">Buscar pokémon</string>
+    <string name="favourites_favouritesText">Favoritos</string>
+    <string name="favourites_already">Pokémon ya en favoritos</string>
+    <string-array name="favourites_notification">
+        <item>Pokémon añadido a favoritos</item>
+        <item>Has añadido a %1$s a tu lista de favoritos</item>
+    </string-array>
+</resources>

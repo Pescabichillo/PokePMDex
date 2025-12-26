@@ -15,8 +15,11 @@ import androidx.core.content.ContextCompat;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
 
-import com.example.pokepmdex.Pokedex.PokemonList;
+import com.example.pokepmdex.Pokedex.Favourites;
+import com.example.pokepmdex.Pokedex.Generations;
 import com.example.pokepmdex.SQLite.Helper;
 
 public class MainActivity extends AppCompatActivity {
@@ -50,12 +53,38 @@ public class MainActivity extends AppCompatActivity {
             }
         }
 
-        Button button = findViewById(R.id.button);
+        FragmentManager fm = getSupportFragmentManager();
+        Intent intent = getIntent();
+
+        if(intent.getIntExtra("FragmentFavourite", 0) == 1) {
+            Fragment fragment = new Favourites();
+            fm.beginTransaction()
+                    .setReorderingAllowed(true)
+                    .replace(R.id.fragmentContainerView4,fragment)
+                    .commit();
+        }
+
+        Button button = findViewById(R.id.main_button_generations);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent downloadIntent = new Intent(getApplicationContext(), PokemonList.class);
-                startActivity(downloadIntent);
+                Fragment fragment = new Generations();
+                fm.beginTransaction()
+                        .setReorderingAllowed(true)
+                        .replace(R.id.fragmentContainerView4,fragment)
+                        .commit();
+            }
+        });
+
+        Button button2 = findViewById(R.id.main_button_favourites);
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Fragment fragment = new Favourites();
+                fm.beginTransaction()
+                        .setReorderingAllowed(true)
+                        .replace(R.id.fragmentContainerView4,fragment)
+                        .commit();
             }
         });
     }

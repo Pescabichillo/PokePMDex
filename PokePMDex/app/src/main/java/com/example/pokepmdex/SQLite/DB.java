@@ -36,7 +36,9 @@ public class DB {
             // Speed
             baseStats.add(new BaseStats(c.getInt(8)));
 
-            Pokemon pokemon = new Pokemon(c.getString(0), 0, c.getInt(1), c.getInt(2), baseStats, null, null);
+            Sprites sprite = new Sprites(c.getString(10), null);
+
+            Pokemon pokemon = new Pokemon(c.getString(0), 0, c.getInt(1), c.getInt(2), baseStats, sprite, null);
             pokemon.setImageMap(c.getBlob(9));
             resultado.add(pokemon);
             c.moveToNext();
@@ -47,10 +49,10 @@ public class DB {
     }
 
     // Guarda un pokemon en la lista
-    public static void savePokemon(Helper helper, String name, int altura, int peso, int Hp, int Attack, int Defense, int SpecialAttack, int SpecialDefense, int Speed, byte[] imageMap) {
-        String insert = "INSERT INTO pokemons (nombre, altura, peso, Hp, Attack, Defense, SpecialAttack, SpecialDefense, Speed, sprite) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?);";
+    public static void savePokemon(Helper helper, String name, int altura, int peso, int Hp, int Attack, int Defense, int SpecialAttack, int SpecialDefense, int Speed, byte[] imageMap, String spriteURL) {
+        String insert = "INSERT INTO pokemons (nombre, altura, peso, Hp, Attack, Defense, SpecialAttack, SpecialDefense, Speed, sprite, spriteURL) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);";
         SQLiteDatabase conn = helper.getWritableDatabase();
-        conn.execSQL(insert, new Object[]{ name, String.valueOf(altura), String.valueOf(peso), String.valueOf(Hp), String.valueOf(Attack), String.valueOf(Defense), String.valueOf(SpecialAttack), String.valueOf(SpecialDefense), String.valueOf(Speed), imageMap });
+        conn.execSQL(insert, new Object[]{ name, String.valueOf(altura), String.valueOf(peso), String.valueOf(Hp), String.valueOf(Attack), String.valueOf(Defense), String.valueOf(SpecialAttack), String.valueOf(SpecialDefense), String.valueOf(Speed), imageMap, spriteURL });
         conn.close();
     }
 

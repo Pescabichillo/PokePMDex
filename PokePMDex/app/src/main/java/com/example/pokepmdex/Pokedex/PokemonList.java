@@ -26,8 +26,7 @@ import java.util.List;
 public class PokemonList extends AppCompatActivity {
 
     private List<Pokemon> pokemons;
-    private int selectedGeneration;
-    private int[] generations = {0, 151, 251};
+    private int[] generations = {0, 151, 251, 386, 493, 649, 721};
     private boolean firstPage = true;
     private boolean lastPage = false;
 
@@ -49,18 +48,14 @@ public class PokemonList extends AppCompatActivity {
 
         Intent intent = getIntent();
 
-        /*
-        // Para obtener la generación que hemos seleccionado siendo 0 la primera
-        selectedGeneration = intent.getIntExtra("generation", 0);
-        */
-        selectedGeneration = 0;
+        int selectedGeneration = intent.getIntExtra("Generation", 0);
 
         ((TextView) findViewById(R.id.list_number_generation)).setText(String.valueOf(selectedGeneration + 1));
 
-        offset = 0;
+        offset = generations[selectedGeneration];
 
-        prev = findViewById(R.id.list_button_prev);
-        next = findViewById(R.id.list_button_next);
+        prev = findViewById(R.id.main_button_generations);
+        next = findViewById(R.id.main_button_favourites);
 
         prev.setVisibility(View.GONE);
         next.setVisibility(View.GONE);
@@ -80,7 +75,7 @@ public class PokemonList extends AppCompatActivity {
                 int limit;
                 offset += 20;
                 // Para no mostrar pokemons de otra generación en la generación seleccionada
-                if(offset + 20 > generations[selectedGeneration + 1]) {
+                if(offset + 20 >= generations[selectedGeneration + 1]) {
                     limit = generations[selectedGeneration + 1] - offset;
                     lastPage = true;
                 }
@@ -106,7 +101,7 @@ public class PokemonList extends AppCompatActivity {
         });
 
         // Lanzamos thread de llamada a la api
-        DescargarPokemons task = new DescargarPokemons(this, 0, 20);
+        DescargarPokemons task = new DescargarPokemons(this, offset, 20);
         new Thread(task).start();
 
         // Si le damos a cualquier elemento de la lista nos abre otra actividad con información
@@ -117,10 +112,12 @@ public class PokemonList extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Intent clickedPokemon = new Intent(getApplicationContext(), PokemonData.class);
 
+                // Pasamos información del pokemon por el intent
                 clickedPokemon.putExtra("pokemonName", pokemons.get(position).getPokemonName());
                 clickedPokemon.putExtra("pokemonHeight", pokemons.get(position).getPokemonHeight());
                 clickedPokemon.putExtra("pokemonWeight", pokemons.get(position).getPokemonWeight());
                 clickedPokemon.putExtra("pokemonSprite", pokemons.get(position).getImageMap());
+                clickedPokemon.putExtra("pokemonSpriteURL", pokemons.get(position).getPokemonFrontDefaultURL());
 
                 clickedPokemon.putExtra("pokemonHp", pokemons.get(position).getPokemonHp());
                 clickedPokemon.putExtra("pokemonAttack", pokemons.get(position).getPokemonAttack());
